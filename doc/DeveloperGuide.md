@@ -45,8 +45,13 @@ Priority | As a ... | I want to ... | So that I can...
 `* * *` | user | add a new person | 
 `* * *` | user | delete a person | can remove entries that I no longer need
 `* * *` | user | find a person by name | locate details of persons without having to go through the entire list
+`* * *` | user | edit a person | update entries that are out-dated
+`* * *` | user | list all persons | view all entries in address book
 `* *` | user | hide [private contact details](#private-contact-detail) by default | to minimize chance of someone else seeing them by accident
 `*` | user with many persons in the address book | sort persons by name | locate a person easily
+`*` | user with many persons in the address book | group persons | view related persons easily
+`*` | user | import persons from file | add many persons at one go rather than manually add many individual persons
+`*` | user | export persons to file | make use of persons information outside of program
 
 
 ## Appendix B : Use Cases
