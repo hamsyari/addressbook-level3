@@ -78,6 +78,33 @@ Use case ends.
 
 > 3a1. AddressBook shows an error message <br>
   Use case resumes at step 2
+  
+#### Use case: Edit tag
+
+**MSS**
+
+1. User requests to list tags
+2. AddressBook shows a list of tags
+3. User requests to delete a specific tag in the list
+4. AddressBook requests to confirm change of tag
+5. User confirms change
+6. AddressBook updates the tag <br>
+Use case ends.
+
+**Extensions**
+
+2a. The list is empty
+
+> Use case ends
+
+3a. The given index is invalid
+
+> 3a1. AddressBook shows an error message <br>
+  Use case resumes at step 2
+
+5a. User cancels change
+
+> Use case ends
 
 ## Appendix C : Non Functional Requirements
 
